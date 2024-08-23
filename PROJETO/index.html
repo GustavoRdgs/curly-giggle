@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RequestIt</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="container">
+    <header>
+        <img class="logo-branca" src="imagens/LOGO-BRANCA-1-2048x376.png" alt="Logo Branca">
+        <nav>
+            <ul>
+                <li class="home"><a href="#blog">Home</a></li>
+                <li class="request-it"><a href="https://requestit.com.br/request-it/">Request It</a></li>
+                <li class="blog"><a href="https://requestit.com.br/blog/">Blog</a></li>
+                <li class="fale-conosco"><a href="#fale-conosco">Fale Conosco</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+                
+        <section id="request-it">
+            <h2>Request IT</h2>
+            <h2>Eficiência e agilidade</h2>
+            <button id="abrir-formulario" class="open-form">Comece dando o primeiro passo AQUI</button>
+        </section>
+
+        <figure>
+            <img class="rapaz-capa" src="imagens/Rapaz-capa-2.png" alt="Rapaz Capa">
+        </figure>
+        
+    
+
+        <div id="formulario" class="form-popup">
+            <h2>Formulário de Contato</h2>
+            <form>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome"><br><br>
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email"><br><br>
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem"></textarea><br><br>
+                <label for="arquivo">Arquivo:</label>
+                <input type="file" id="arquivo" name="arquivo"><br><br>
+                <button id="enviar">Enviar</button>
+                <button id="fechar">Fechar</button>
+            </form>
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="arrow-wrapper">
+            <a href="#topo">
+                <img class="arrow" src="imagens/arrow-1.svg" alt="Seta para o topo">
+            </a>
+        </div>
+    </footer>
+
+    <a id="topo"></a>
+
+    <script src="script.js"></script>
+</body>
+</html>

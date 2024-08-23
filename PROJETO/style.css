@@ -1,0 +1,185 @@
+.container {
+    position: relative;
+    width: 1440px;
+    height: 748px;
+    background-color: #1b202b;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    color: #ffffff;
+    cursor: pointer;
+    text-decoration: none;
+    
+}
+
+label {
+    color: #fff;
+}
+
+.home {
+    position: absolute;
+    font-family: "Arial Rounded MT Bold", Helvetica, sans-serif;
+    font-weight: 400;    
+    font-size: 16px;
+    white-space: nowrap;
+    text-decoration: none;
+    top: 33px;
+    left: 995px;
+}
+
+.request-it {
+    position: absolute;
+    font-family: "Arial Rounded MT Bold", Helvetica, sans-serif;
+    font-weight: 400;    
+    font-size: 16px;
+    white-space: nowrap;
+    text-decoration: none;
+    top: 33px;
+    left: 1105px;
+       
+}
+
+.blog {
+    position: absolute;
+    font-family: "Arial Rounded MT Bold", Helvetica, sans-serif;
+    font-weight: 400;   
+    font-size: 16px;
+    white-space: nowrap;
+    text-decoration: none;
+    top: 33px;
+    left: 1055px;
+       
+}
+
+.fale-conosco {
+    position: absolute;
+    font-family: "Arial Rounded MT Bold", Helvetica, sans-serif;
+    font-weight: 400;    
+    font-size: 16px;
+    white-space: nowrap;
+    text-decoration: none;
+    top: 33px;
+    left: 1198px;
+        
+}
+
+.logo-branca {
+    position: absolute;
+    width: 331px;
+    height: 61px;
+    top: 21px;
+    left: 25px;
+    object-fit: cover;
+}
+
+
+
+#request-it {
+    position: absolute;
+    width: 361px;
+    top: 101px;
+    left: 223px;
+}
+
+h2 {
+    font-family: "Arial Rounded MT Bold", Helvetica, sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 38px;
+    
+}
+
+#request-it button {
+    position: absolute;
+    width: 309px;
+    top: 228px;
+    left: -5px;
+    font-family: "Arial Rounded MT Bold", Helvetica, sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 17px;
+    background-color: inherit;
+    border: 2px solid green;
+    padding: 10px;
+}
+
+.rapaz-capa {
+    position: absolute;
+    width: 287px;
+    height: 402px;
+    top: 346px;
+    left: 890px;
+    object-fit: cover;
+}
+
+.arrow-wrapper {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    top: 703px;
+    left: 0;
+    background-color: #38db0b;
+}
+
+.arrow {
+    position: absolute;
+    width: 37px;
+    height: 32px;
+    top: 8px;
+    left: 4px;
+}
+
+.open-form {
+    cursor: pointer; 
+}
+
+.form-popup {
+    position: fixed;
+    top: 50%;
+    left: 44%;
+    transform: translate(-50%, -50%);
+    background-color: #292f3b;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    display: none;
+}
+
+.form-popup h2 {
+    margin-top: 0;
+}
+
+.form-popup form {
+    margin-top: 20px;
+}
+
+.form-popup label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.form-popup input, .form-popup textarea {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+}
+
+.form-popup button[type="button"] {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-popup button[type="button"]:hover {
+    background-color: #3e8e41;
+}
